@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: red;
+    font-size: 50px;
+    height: 36px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 23px;
+
+}
+
+main {
+    background-image: url("movie3.jpg");
+    position: relative;
+    min-height: calc(100vh - 36px - 36px);
+    min-width: none;
+    text-align: center;
+    box-shadow: inset 70px 50px 70px , inset -70px -50px 70px ;    
+}
+main::after{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: rgb(0, 0, 0, 0.4);
+}
+
+.container {
+    color: white;
+    font-size: 25px;
+    font-family: 'Alkatra', cursive;
+    padding-top: 200px;
+}
+
+.bigtext {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+
+.search {
+
+    display: block;
+    align-items: center;
+    height: 25px;
+
+}
+
+
+.search input {
+    background-color: rgba(74, 24, 73, 0.38);
+    height: 35px;
+    width: 500px;
+    border-radius: 5px;
+    color: rgb(236, 245, 245);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.94);
+    height: 60vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.box img {
+    width: 334px;
+    height: 200px;
+    margin: 75px;
+}
+
+.box2 {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 80vh;
+    color: white;
+}
+
+.box2 img {
+    margin: 44px;
+    padding: 20px
+}
+
+.box3 {
+    background-color: rgb(3, 1, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 60vh;
+    color: white;
+}
+
+.box3 img {
+    margin: 70px;
+    height: 218px;
+    width: 400px;
+}
+
+.box4 {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    height: 70vh;
+    color: white;
+}
+
+.q1 {
+    background-color: grey;
+    padding: 10px;
+    margin: 5px 100px;
+    width: 80vw;
+    display: flex;
+    border-radius: 2px;
+
+}
+
+.q2 {
+    background-color: grey;
+    padding: 10px;
+    margin: 5px 100px;
+    width: 80vw;
+    display: flex;
+    border-radius: 2px;
+
+}
+
+.q3 {
+    background-color: grey;
+    padding: 10px;
+    margin: 5px 100px;
+    width: 80vw;
+    display: flex;
+    border-radius: 2px;
+
+}
+
+.q4 {
+    background-color: grey;
+    padding: 10px;
+    margin: 5px 100px;
+    width: 80vw;
+    display: flex;
+    border-radius: 2px;
+
+}
+
+.q5 {
+    background-color: grey;
+    padding: 10px;
+    margin: 5px 100px;
+    width: 80vw;
+    display: flex;
+    border-radius: 2px;
+
+}
+
+.q1:hover {
+    font-weight: bolder;
+}
+
+.q2:hover {
+    font-weight: bolder;
+}
+
+.q3:hover {
+    font-weight: bolder;
+}
+
+.q4:hover {
+    font-weight: bolder;
+}
+
+.q5:hover {
+    font-weight: bolder;
+}
+
+.chotutext {
+    font-size: 30px;
+}
+
+.last {
+    padding: 20px 20px;
+}
+
+.last input {
+    background-color: rgba(35, 56, 192, 0.38);
+    height: 35px;
+    width: 500px;
+    border-radius: 5px;
+    color: rgb(236, 245, 245);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sbox input {
+    background-color: rgba(222, 31, 74, 0.875);
+    height: 35px;
+    width: 70px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(236, 245, 245);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sbox input:hover{
+    background-color: rgba(255, 31, 74, 0.875);
+    font-weight: bolder;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    background-color: black;
+    color: aliceblue;
+}
