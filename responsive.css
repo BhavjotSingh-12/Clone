@@ -1,0 +1,132 @@
+@media screen and (max-width : 1200px) {
+    .container {
+        font-size: 20px;
+    }
+
+    .bigtext {
+        font-size: 35px;
+        font-weight: bolder;
+    }
+
+    .search input {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width : 1200px) {
+    .container {
+        font-size: 15px;
+    }
+
+    .bigtext {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .search input {
+        width: 300px;
+    }
+
+    .box2,
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .box,
+    .box2,
+    .box3 {
+        padding-left: 5px;
+        font-size: 20px;
+    }
+
+    .box4 {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .q1,
+    .q2,
+    .q3,
+    .q4,
+    .q5 {
+        width: 70vw;
+        margin: 5px;
+
+
+    }
+
+    .last input {
+        width: 50vw;
+
+    }
+}
+
+@media screen and (min-width:100px) and (max-width : 500px) {
+    .container {
+        font-size: 15px;
+    }
+
+    .bigtext {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .search input {
+        width: 300px;
+    }
+
+    .box2,
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .box,
+    .box2,
+    .box3 {
+        margin-left: 5px;
+        padding-left: 5px;
+        font-size: 15px;
+    }
+
+    .box4 {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .q1,
+    .q2,
+    .q3,
+    .q4,
+    .q5 {
+        width: 70vw;
+        margin: 5px;
+
+    }
+
+    .last input {
+        width: 50vw;
+
+    }
+}
