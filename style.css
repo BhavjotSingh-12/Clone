@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 
+@keyframes bg-change {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -21,11 +35,11 @@ main {
     background-image: url("movie3.jpg");
     position: relative;
     min-height: calc(100vh - 36px - 36px);
-    min-width: none;
     text-align: center;
-    box-shadow: inset 70px 50px 70px , inset -70px -50px 70px ;    
+    box-shadow: inset 70px 50px 70px, inset -70px -50px 70px;
 }
-main::after{
+
+main::after {
     position: absolute;
     top: 0%;
     left: 0%;
@@ -34,6 +48,7 @@ main::after{
     z-index: 1;
     background: rgb(0, 0, 0, 0.4);
 }
+
 
 .container {
     color: white;
@@ -121,6 +136,7 @@ main::after{
     font-size: 30px;
     height: 70vh;
     color: white;
+    
 }
 
 .q1 {
@@ -198,6 +214,8 @@ main::after{
 }
 
 .last {
+    margin-top: 10px;
+    /* margin-bottom: 2px; */
     padding: 20px 20px;
 }
 
@@ -211,19 +229,11 @@ main::after{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.sbox input {
-    background-color: rgba(222, 31, 74, 0.875);
-    height: 35px;
-    width: 70px;
-    text-align: center;
+.button{
+    height: 25px;
+    width: 100px;
+    background-color: red;
     border-radius: 5px;
-    color: rgb(236, 245, 245);
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.sbox input:hover{
-    background-color: rgba(255, 31, 74, 0.875);
-    font-weight: bolder;
 }
 
 footer {
